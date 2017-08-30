@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS bamazon_db;
 CREATE DATABASE bamazon_db;
 USE bamazon_db;
 
@@ -10,7 +11,7 @@ stock_quantity INTEGER(100) NOT NULL
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0001,
+0,
 "Television",
 "Electronics",
 149.99,
@@ -18,7 +19,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0002,
+1,
 "Pillows",
 "Home",
 14.99,
@@ -26,7 +27,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0003,
+2,
 "Notebooks",
 "Office Supplies",
 5.99,
@@ -34,7 +35,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0004,
+3,
 "Wireless Mouse",
 "Electronics",
 7.49,
@@ -42,7 +43,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0005,
+4,
 "Stereo",
 "Electronics",
 59.25,
@@ -50,7 +51,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0006,
+5,
 "Desk",
 "Home",
 79.95,
@@ -58,7 +59,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0007,
+6,
 "Night Stand",
 "Home",
 109.05,
@@ -66,7 +67,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0008,
+7,
 "Paper Clips",
 "Office Supplies",
 1.99,
@@ -74,7 +75,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0009,
+8,
 "Printer Ink",
 "Office Supplies",
 29.95,
@@ -82,7 +83,7 @@ INSERT INTO products (item_id, product_name, department_name, price, stock_quant
 );
 
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity) VALUES (
-0010,
+9,
 "Headphones",
 "Electronics",
 17.05,
